@@ -8,7 +8,7 @@
         </div>
         <div class="pull-right">
             <a class="btn btn-primary btn-sm mb-2" href="{{ route('users.index') }}">
-                <i class="fa fa-arrow-left"></i> Back
+                <i class="fa fa-arrow-left"></i>
             </a>
         </div>
     </div>
