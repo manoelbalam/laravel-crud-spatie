@@ -4,7 +4,7 @@
 <div class="row">
     <div class="col-lg-12 margin-tb d-flex justify-content-between align-items-center">
         <h2>Edit Role</h2>
-        <a class="btn btn-primary btn-sm" href="{{ route('users.index') }}">
+        <a class="btn btn-primary btn-sm" href="{{ route('roles.index') }}">
             <i class="fa fa-arrow-left"></i>
         </a>
     </div>

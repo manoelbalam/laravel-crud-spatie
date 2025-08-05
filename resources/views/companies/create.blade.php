@@ -4,7 +4,7 @@
 <div class="row mb-3">
     <div class="col-lg-12 d-flex justify-content-between align-items-center">
         <h2>Create New Company</h2>
-        <a class="btn btn-primary btn-sm" href="{{ route('roles.index') }}">
+        <a class="btn btn-primary btn-sm" href="{{ route('companies.index') }}">
             <i class="fa fa-arrow-left"></i>
         </a>
     </div>

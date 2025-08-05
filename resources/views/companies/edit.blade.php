@@ -3,14 +3,13 @@
 @section('content')
 <div class="row">
     <div class="col-lg-12 margin-tb">
-        <div class="pull-left">
+        <div class="col-lg-12 d-flex justify-content-between align-items-center">
             <h2>Edit Company</h2>
-        </div>
-        <div class="pull-right">
-            <a class="btn btn-primary btn-sm mb-2" href="{{ route('companies.index') }}">
+            <a class="btn btn-primary btn-sm" href="{{ route('companies.index') }}">
                 <i class="fa fa-arrow-left"></i>
             </a>
         </div>
+        
     </div>
 </div>
 
