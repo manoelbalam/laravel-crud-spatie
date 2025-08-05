@@ -33,7 +33,7 @@ class CompanyController extends Controller
     {
         request()->validate([
             'name' => 'required',
-            'detail' => 'required',
+            'employees' => 'required',
         ]);
 
         Company::create($request->all());
@@ -56,7 +56,7 @@ class CompanyController extends Controller
     {
         request()->validate([
             'name' => 'required',
-            'detail' => 'required',
+            'employees' => 'required',
         ]);
 
         $company->update($request->all());

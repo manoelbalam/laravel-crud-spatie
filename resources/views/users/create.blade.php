@@ -1,16 +1,12 @@
 @extends('layouts.app')
 
 @section('content')
-<div class="row">
-    <div class="col-lg-12 margin-tb">
-        <div class="pull-left">
-            <h2>Create New User</h2>
-        </div>
-        <div class="pull-right">
-            <a class="btn btn-primary btn-sm mb-2" href="{{ route('users.index') }}">
-                <i class="fa fa-arrow-left"></i>
-            </a>
-        </div>
+<div class="row mb-3">
+    <div class="col-lg-12 d-flex justify-content-between align-items-center">
+        <h2>Create New User</h2>
+        <a class="btn btn-primary btn-sm" href="{{ route('roles.index') }}">
+            <i class="fa fa-arrow-left"></i>
+        </a>
     </div>
 </div>
 
